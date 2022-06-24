@@ -30,7 +30,7 @@ from AyiinXd.ayiin import AyiinDB, HOSTED_ON, autobot, autopilot, ayiin_version
 
 try:
     for module_name in ALL_MODULES:
-        imported_module = import_module(f"AyiinXd.modules.{module_name}")
+        imported_module = import_module(f"TheThagiyevv.modules.{module_name}")
     adB = AyiinDB()
     client = multiayiin()
     total = 10 - client
@@ -40,7 +40,7 @@ try:
     LOGS.info(f"Telethon Version - {version.__version__} [Layer: {LAYER}]")
     LOGS.info(f"PyTgCalls Version - {pytgcalls.__version__}")
     LOGS.info(f"Userbot Version - {ubotversion} •[{adB.name}]•")
-    LOGS.info(f"Ayiin Version - {ayiin_version} •[{HOSTED_ON}]•")
+    LOGS.info(f"Karabakh Version - {ayiin_version} •[{HOSTED_ON}]•")
     LOGS.info("[✨ BERHASIL DIAKTIFKAN! ✨]")
 except (ConnectionError, KeyboardInterrupt, NotImplementedError, SystemExit):
     pass
